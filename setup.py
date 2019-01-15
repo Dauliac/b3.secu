@@ -19,13 +19,15 @@ setup(
     version='0.0.1',
     description='python brutforce',
     license='MIT',
-    scripts=["bin/pyforce"],
+    scripts=[
+        "bin/pyforce"
+    ],
     package_dir={'': 'lib'},
-    author='Julien Dauliac &&',
+    author='Julien Dauliac && Raphael Beghin',
     author_email='julien.dauliac@ynov.com',
     url='https://gitlab.dotfile.eu/dauliac/b3.secu',
     packages=find_packages('lib'),
-    install_requires=[],
+    #  install_requires=[],
     long_description=long_description,
     python_requires='>=3.7',
     classifiers=[

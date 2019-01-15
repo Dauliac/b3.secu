@@ -10,3 +10,4 @@ k8s/bin
 *.tgz
 *.tar.gz
 *.rkestate
+*.egg-info

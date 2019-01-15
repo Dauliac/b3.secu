@@ -4,6 +4,21 @@ from __future__ import absolute_import
 
 import pyforce
 import sys
+from pyforce.commons import HEADER
 
 if __name__ == '__main__':
+    try:
+        print(HEADER)
+        files_hash = pyforce.read_shadow_file()
+        # 4 is giselle
+        to_crack = files_hash[4]
+        print('User: {}'.format(to_crack['user']))
+        print('Encryption: {}'.format(to_crack['encryption']))
+        print('Hash: {}'.format(to_crack['hash']))
+        crack_me = to_crack['hash']
+        #  crack_me = "35a489a01ae6459901d0bd0eb5f49890"
+        #  pyforce.attack(crack_me, 6+1)
+        pyforce.attack(crack_me, to_crack['encryption'], 6)
+    except KeyboardInterrupt:
+        sys.exit(0)
 

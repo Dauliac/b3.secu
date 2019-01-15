@@ -1,7 +1,11 @@
 setup.py
 bin/pyforce
 lib/pyforce/__init__.py
+lib/pyforce/commons.py
 lib/pyforce.egg-info/PKG-INFO
 lib/pyforce.egg-info/SOURCES.txt
 lib/pyforce.egg-info/dependency_links.txt
 lib/pyforce.egg-info/top_level.txt
+lib/pyforce/bruteforce/__init__.py
+lib/pyforce/commands/__init__.py
+lib/pyforce/dict/__init__.py

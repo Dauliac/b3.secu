@@ -3,7 +3,7 @@ Name: pyforce
 Version: 0.0.1
 Summary: python brutforce
 Home-page: https://gitlab.dotfile.eu/dauliac/b3.secu
-Author: Julien Dauliac &&
+Author: Julien Dauliac && Raphael Beghin
 Author-email: julien.dauliac@ynov.com
 License: MIT
 Description: 
